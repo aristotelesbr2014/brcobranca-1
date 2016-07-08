@@ -213,25 +213,25 @@ module Brcobranca
           doc.show boleto.valor_documento.to_currency
           doc.moveto x: '0.5 cm', y: '12.7 cm'
           doc.show boleto.instrucao1
-          doc.moveto x: '0.5 cm', y: '12.3 cm'
+          doc.moveto x: '0.5 cm', y: '12.7 cm'
           doc.text '<bold>Sr. Caixa:</bold>'
           doc.show boleto.instrucao2
-          doc.moveto x: '0.5 cm', y: '11.9 cm'
+          doc.moveto x: '0.5 cm', y: '12.3 cm'
           doc.text '<bold>      - Aplicar multa de 10% e juros de 1% ao mês após o vencimento (Art. 5º, §1º, IN 001/2015 HEMOPI)</bold>'
           doc.show boleto.instrucao3
-          doc.moveto x: '0.5 cm', y: '11.5 cm'
+          doc.moveto x: '0.5 cm', y: '11.1 cm'
           doc.text '<bold>      - Não receber após 30 dias do vencimento.</bold>'
           doc.show boleto.instrucao4
-          doc.moveto x: '0.5 cm', y: '11.1 cm'
+          doc.moveto x: '0.5 cm', y: '10.7 cm'
           doc.text '<bold>Não serão processados ou contabilizados os pagamentos realizados via depósito ou transferência bancária.</bold>'
           doc.show boleto.instrucao5
-          doc.moveto x: '0.5 cm', y: '10.7 cm'
+          doc.moveto x: '0.5 cm', y: '10.3 cm'
           doc.text '(art. 5º, II, IN 001/2015 - HEMOPI). A mora superior a 60 dias implicará na abertura de processo administrativo e'
           doc.show boleto.instrucao6
           doc.moveto x: '0.5 cm', y: '9.9 cm'
           doc.text 'remessa dos autos à Procuradoria Geral do Estado para <bold>inscrição em dívida ativa, registro nos órgãos de </bold>'
           doc.show boleto.instrucao7 
-          doc.moveto :x => '0.5 cm' , :y => '9.9 cm'
+          doc.moveto :x => '0.5 cm' , :y => '9.5 cm'
           doc.text '<bold>proteção ao crédito e ajuizamento de execução fiscal </bold> (art. 6º, inciso VI, IN 001/2015 – HEMOPI).'
           doc.moveto :x => '0.5 cm' , :y => '9.5 cm'
           doc.text ''
