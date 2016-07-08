@@ -233,7 +233,6 @@ module Brcobranca
           doc.show boleto.instrucao7 
           doc.moveto :x => '0.5 cm' , :y => '9.9 cm'
           doc.text '<bold>proteção ao crédito e ajuizamento de execução fiscal </bold> (art. 6º, inciso VI, IN 001/2015 – HEMOPI).'
-          doc.show boleto.instrucao8 
           doc.moveto :x => '0.5 cm' , :y => '9.5 cm'
           doc.text ''
           doc.moveto :x => '1.2 cm' , :y => '8.8 cm'
